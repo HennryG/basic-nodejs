@@ -8,6 +8,7 @@ const courseOptions = {
   },
 };
 
+
 const inscriptionOptions = {
   idcurso: {
     default: 0,
