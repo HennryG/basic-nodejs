@@ -8,7 +8,7 @@ const courseOptions = {
   },
 };
 
-const InscriptionOptions = {
+const inscriptionOptions = {
   idcurso: {
     default: 0,
     alias: "i",
@@ -32,7 +32,7 @@ const argv = require("yargs")
   ) {
     courseController.showCoursesDelay(argv.interval);
   })
-  .command("inscribir", "Inscripción a un curso", InscriptionOptions, function (
+  .command("inscribir", "Inscripción a un curso", inscriptionOptions, function (
     argv
   ) {
     if (courseController.findCourseById(argv.idcurso)) {

@@ -1,0 +1,2 @@
+El usuario identificado con 12345 con nombre nombrealumno se ha inscrito al curso 
+ {"id":1,"name":"Programación","duration":3,"cost":100000}
